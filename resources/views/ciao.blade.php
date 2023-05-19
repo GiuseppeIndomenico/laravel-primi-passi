@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>home</title>
+    <title>Ciao</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -406,12 +406,12 @@
 
 <body class="antialiased">
     <h1>
-        Hello World!
+        Ciao sono una nuova pagina!
     </h1>
 
     <ul>
         <li>
-            <a href="{{ route('ciao') }}">vai a pagina ciao</a>
+            <a href="{{ route('home') }}">Torna alla Home</a>
         </li>
         <li>
             <a href="{{ route('altro') }}">vai ad un'altra pagina</a>
